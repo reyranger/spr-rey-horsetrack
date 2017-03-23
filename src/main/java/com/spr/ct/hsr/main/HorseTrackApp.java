@@ -3,6 +3,9 @@ package com.spr.ct.hsr.main;
 import java.util.List;
 import java.util.Scanner;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+
 import com.spr.ct.hsr.exception.InvalidBetException;
 import com.spr.ct.hsr.exception.InvalidCommandException;
 import com.spr.ct.hsr.service.BillInventoryService;
@@ -75,9 +78,10 @@ public class HorseTrackApp {
 	}
 
 	public static void main(String[] args) {
+		Logger.getLogger("com.spr.ct").setLevel(Level.OFF);
 		Scanner scanner = new Scanner(System.in);
 		while (true) {
-			String commands = scanner.next();
+			String commands = scanner.nextLine();
 			runApp(commands);
 			String[] comms = commands.split(" ");
 			if (comms[0].equalsIgnoreCase("q")) {
