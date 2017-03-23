@@ -1,0 +1,110 @@
+
+LOGS from Test Runs:
+----------------------------------
+
+
+##################
+INPUT:
+##################
+
+
+1 55
+2 25
+w 4
+4 10.25
+
+####################
+OUTPUT:
+####################
+
+
+Inventory:
+$1, 10
+$5, 10
+$10, 10
+$20, 10
+$100, 10
+Horses:
+1,That Darn Gray Cat,5,won
+2,Fort Utopia,10,lost
+3,Count Sheep,9,lost
+4,Ms Traitour,4,lost
+5,Real Princess,3,lost
+6,Pa Kettle,5,lost
+7,Gin Stinger,6,lost
+Payout : That Darn Gray Cat, $275
+$1, 0
+$5, 1
+$10, 1
+$20, 3
+$100, 2
+Inventory:
+$1, 10
+$5, 9
+$10, 9
+$20, 7
+$100, 8
+Horses:
+1,That Darn Gray Cat,5,won
+2,Fort Utopia,10,lost
+3,Count Sheep,9,lost
+4,Ms Traitour,4,lost
+5,Real Princess,3,lost
+6,Pa Kettle,5,lost
+7,Gin Stinger,6,lost
+
+------
+
+Inventory:
+$1, 10
+$5, 9
+$10, 9
+$20, 7
+$100, 8
+Horses:
+1,That Darn Gray Cat,5,won
+2,Fort Utopia,10,lost
+3,Count Sheep,9,lost
+4,Ms Traitour,4,lost
+5,Real Princess,3,lost
+6,Pa Kettle,5,lost
+7,Gin Stinger,6,lost
+No Payout: Fort Utopia
+Inventory:
+$1, 10
+$5, 9
+$10, 9
+$20, 7
+$100, 8
+Horses:
+1,That Darn Gray Cat,5,won
+2,Fort Utopia,10,lost
+3,Count Sheep,9,lost
+4,Ms Traitour,4,lost
+5,Real Princess,3,lost
+6,Pa Kettle,5,lost
+7,Gin Stinger,6,lost
+
+------
+
+Inventory:
+$1, 10
+$5, 9
+$10, 9
+$20, 7
+$100, 8
+Horses:
+1,That Darn Gray Cat,5,lost
+2,Fort Utopia,10,lost
+3,Count Sheep,9,lost
+4,Ms Traitour,4,won
+5,Real Princess,3,lost
+6,Pa Kettle,5,lost
+7,Gin Stinger,6,lost
+
+------
+
+Invalid Bet: 10.25
+
+------
+
